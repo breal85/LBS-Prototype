@@ -1,0 +1,21 @@
+#map{
+            width: 400px;
+            height: 400px;
+}
+
+#customer_map 
+{
+    width: 400px;
+    height: 400px;
+}
+
+/*Responsive Design*/
+@media only screen and (max-width: 550px) {
+#map{
+width: 100%;  
+}   
+#customer_map
+{
+    width:100%;
+}
+      } 

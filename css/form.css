@@ -1,0 +1,80 @@
+/* Form CSS Document for styling the form of the mobile web app*/
+body{
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+p{
+	font-size:12px;
+}
+
+input{
+	font-size:120%;
+	background-color: #f2f2f2;
+	border: 1px solid #bdbdbd;
+	border-radius: 5px;
+	padding:5px 5px 5px 30px;
+	background-repeat:no-repeat;
+	background-position:8px 9px;
+	display:block;
+	margin-bottom:10px;
+}
+
+select{
+	display: block;
+	font-size:120%;
+	background-color: #f2f2f2;
+	border: 1px solid #bdbdbd;
+	border-radius: 5px;
+	padding:5px 5px 5px 5px;
+	background-repeat:no-repeat;
+	margin-bottom:10px;
+}
+
+textarea{
+	display: block;
+	font-size:120%;
+	background-color: #f2f2f2;
+	border: 1px solid #bdbdbd;
+	border-radius: 5px;
+	padding:5px 5px 5px 5px;
+	background-repeat:no-repeat;
+	margin-bottom:10px;
+}
+
+input[type="radio"]{
+	display:inline-block;
+    width:19px;
+    height:19px;
+    /*margin:-1px 4px 0 0;
+    vertical-align:middle;*/
+    font: 120%;
+    background-color: transparent;
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+input:focus{
+	background-color:#ffffff;
+	border: 1px solid #b1e1e4;
+}
+
+.button_form{
+	padding: 5px;
+	background-color:#e44d26;
+	color:#FFF;
+	/*border-color:#09C;*/
+}
+
+label{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	color:#000000;
+	margin-left:2px;
+}
+
+/*Responsive Design*/
+@media only screen and (max-width: 550px) {
+    input{
+        width: 80%;  
+    }  
+} 
